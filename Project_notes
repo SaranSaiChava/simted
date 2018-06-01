@@ -1,0 +1,7 @@
+----->Arrow keys, Page Up, Page Down, Home, and End all input 3 or 4 bytes to the terminal: 27, '[', and then one or two other characters. This is known as an escape sequence. All escape sequences start with a 27 byte. Pressing Escape sends a single 27 byte as input.
+
+
+------>editorReadKey()’s job is to wait for one keypress, and return it. Later, we’ll expand this function to handle escape sequences, which involves reading multiple bytes that represent a single keypress, as is the case with the arrow keys.
+
+
+------->
