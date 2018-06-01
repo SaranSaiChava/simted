@@ -261,6 +261,7 @@ void initEditor(){
 	if (getWindowSize(&E.screenrows, &E.screencols) == -1) die("getWindowSize");
 }
 
+//sampletest
 int main(){
 	enableRawMode();
 	initEditor();
